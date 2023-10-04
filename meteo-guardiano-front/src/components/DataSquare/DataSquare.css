@@ -1,0 +1,33 @@
+.dataSquare{
+    display: block;
+    width: 350px;
+    margin: 25px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    height: 150px;
+    /* background-color: #7789E6; */
+    border-radius: 15px;
+    text-align: right;
+    
+}
+
+span{
+    font-weight: bold;
+}
+
+.data{
+    color: white;
+    font-size: 34pt;
+}
+
+.unit{
+    color: #D9D4CF;
+    font-size: 20pt;
+    margin-right: 10%;
+    margin-left:15px ;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
