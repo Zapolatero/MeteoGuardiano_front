@@ -6,7 +6,7 @@ class DateDisplay extends React.Component{
     render(){
         return(
             <div className="DateDisplay">
-                <span>
+                <span className="date">
                 {this.props.captureDate
                 .toLocaleString('default', 
                 {
@@ -15,7 +15,7 @@ class DateDisplay extends React.Component{
                     month: "long"
                 })}
                 </span>
-                <span> 
+                <span className="time"> 
                 {this.props.captureDate
                 .toLocaleString('default', 
                 {

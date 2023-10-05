@@ -1,0 +1,27 @@
+.QuickMenu{
+    width: 300px;
+    background-color: #A8B4CE;
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+button{
+    background-color: #D6DCEA;
+    color: #2F4474;
+    border: none;
+    border-radius: 10px;
+    font-size: 15pt;
+    padding: 5px;
+    width: 45%;
+    margin: 5px;
+    /* margin: 15px; */
+    /* margin-bottom: 0px; */
+}
+button:hover{
+    background-color: #526592;
+    color:  #D6DCEA;
+}
